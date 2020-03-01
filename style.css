@@ -1,0 +1,46 @@
+.jumbotron{
+	background-image: url(acback.jpg);
+	background-size: cover;
+}
+
+.navbar{
+	background-color: rgba(212, 0, 86,0.8);
+}
+#webname{
+	color:white;
+}
+
+.col-4{
+	
+	all transition: 0.5;
+}
+.col-4:hover{
+	transform: scale(1.15);
+}
+.card-img-top{
+	width:250px;
+	height:400px;
+}
+#searchbtn{
+	border: 2px inset pink;
+	color:black;
+	background-color: lightpink;
+
+}
+#searchbtn:hover{
+	color:white;
+	background-color: rgba(68, 0, 27,0.8);
+}
+#webname:hover{
+	color:black;
+}
+#navbarDropdown, #home, #link{
+	color:white;
+}
+#navbarDropdown:hover, #home:hover, #link:hover{
+	color:black;
+}
+#item:hover{
+	background-color: grey;
+	color: white;
+}
